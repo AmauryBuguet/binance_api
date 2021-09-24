@@ -23,7 +23,7 @@ extension MarketEndpoints on BinanceSpot {
 
   /// Current exchange trading rules and symbol information
   ///
-  /// symbols param string must be this format '["BTCUSDT","BNBBTC"]'
+  /// symbols param string must be this format '\["BTCUSDT","BNBBTC"\]'
   Future<Either<String, ExchangeInfo>> exchangeInfo({
     String? symbol,
     String? symbols,

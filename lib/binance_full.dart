@@ -1,3 +1,4 @@
+/// Unofficial Dart wrapper for Binance API (REST endpoints + Websockets).
 library binance_full;
 
 export 'src/spot/binance_spot.dart';
