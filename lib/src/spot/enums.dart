@@ -73,10 +73,16 @@ extension TimeInForceExt on TimeInForce {
 }
 
 extension EnumSpotExt on String {
-  SymbolStatus toSymbolStatusEnum() => SymbolStatus.values.firstWhere((s) => describeEnum(s) == this);
-  OrderStatus toOrderStatusEnum() => OrderStatus.values.firstWhere((s) => describeEnum(s) == this);
-  OcoStatus toOcoStatusEnum() => OcoStatus.values.firstWhere((s) => describeEnum(s) == this);
-  OcoOrderStatus toOcoOrderStatusEnum() => OcoOrderStatus.values.firstWhere((s) => describeEnum(s) == this);
-  OrderType toOrderTypeEnum() => OrderType.values.firstWhere((s) => describeEnum(s) == this);
-  TimeInForce toTimeInForceEnum() => TimeInForce.values.firstWhere((s) => describeEnum(s) == this);
+  SymbolStatus toSymbolStatusEnum() =>
+      SymbolStatus.values.firstWhere((s) => describeEnum(s) == this);
+  OrderStatus toOrderStatusEnum() =>
+      OrderStatus.values.firstWhere((s) => describeEnum(s) == this);
+  OcoStatus toOcoStatusEnum() =>
+      OcoStatus.values.firstWhere((s) => describeEnum(s) == this);
+  OcoOrderStatus toOcoOrderStatusEnum() =>
+      OcoOrderStatus.values.firstWhere((s) => describeEnum(s) == this);
+  OrderType toOrderTypeEnum() =>
+      OrderType.values.firstWhere((s) => describeEnum(s) == this);
+  TimeInForce toTimeInForceEnum() =>
+      TimeInForce.values.firstWhere((s) => describeEnum(s) == this);
 }

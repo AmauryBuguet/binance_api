@@ -33,5 +33,6 @@ extension IntervalExt on Interval {
 
 extension EnumExt on String {
   Side toSideEnum() => Side.values.firstWhere((s) => describeEnum(s) == this);
-  Interval toIntervalEnum() => Interval.values.firstWhere((s) => describeEnum(s).split("_").last == this);
+  Interval toIntervalEnum() => Interval.values
+      .firstWhere((s) => describeEnum(s).split("_").last == this);
 }

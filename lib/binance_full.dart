@@ -1,4 +1,4 @@
-library binance_api;
+library binance_full;
 
 export 'src/spot/binance_spot.dart';
 export 'src/spot/enums.dart';

@@ -1,8 +1,8 @@
-name: binance_api
-description: A new Flutter package project.
+name: binance_full
+description: Unofficial Dart wrapper for Binance API (REST endpoints + Websockets).
 version: 0.0.1
-homepage:
-repository:
+homepage: https://github.com/AmauryBuguet/binance_api
+repository: https://github.com/AmauryBuguet/binance_api
 
 environment:
   sdk: ">=2.12.0 <3.0.0"

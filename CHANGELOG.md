@@ -1,3 +1,3 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+* Wrapper for Binance API. Includes market / trade / websocket / subaccount / fiat spot endpoints.

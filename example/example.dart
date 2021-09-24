@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:binance_api/binance_api.dart';
+import 'package:binance_full/binance_full.dart';
 import 'package:flutter/material.dart' hide Interval;
 
 void main() => runApp(const MyApp());
