@@ -1,5 +1,6 @@
 # binance_full
 
+WARNING : this package has been discontinued and replaced by [Binance SPOT](https://pub.dev/packages/binance_spot).  
 This is an unofficial Dart wrapper for Binance API.  
 For now it includes market, trade, subaccount, and fiat endpoints from the SPOT API, as well as support for market and user data streams.  
 Will include FUTURES endpoints soon, feel free to submit pull requests I will be glad to accept them if they match the coding style.  
